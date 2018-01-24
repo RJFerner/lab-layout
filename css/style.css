@@ -1,4 +1,4 @@
-/* General Styles */
+/*Ryan Ferner, i couldn't quite get the boxes. Worked solo.*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #ABCDEF;
@@ -81,6 +81,10 @@ navbar a {
 /* Drinks list */
 .title {
     font-weight: bold;
+}
+
+#columns ul{
+    flex:initial;
 }
 
 #columns img {
