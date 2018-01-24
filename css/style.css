@@ -6,7 +6,7 @@ body {
 
 h1 {
     color: darkblue;
-    text-align: center;
+    text-align: right;
 }
 
 h2 {
@@ -17,7 +17,7 @@ h2 {
 }
 
 p {
-    color: maroon;
+    color: black;
 }
 
 
@@ -25,17 +25,16 @@ p {
 footer, header {
     text-align: center;
     padding: 10px;
-    background-image: url("../images/brushed_metal.jpg");
 }
 
 header {
-    border-bottom: 1px solid black;
-    border-radius: 32px 32px 0 0;
+    color: bisque;
+    background-color: bisque;
 }
 
 footer {
     border-top: 1px solid black;
-    border-radius: 0 0 32px 32px;
+    background-color: bisque;
 }
 
 section {
@@ -54,6 +53,12 @@ section {
 /* Navigation bar */
 navbar ul {
     list-style-type: none;
+    position:relative;
+    bottom:90px;
+    left:10px;
+    width:90px;
+    
+    color:greenyellow;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -61,19 +66,15 @@ navbar ul {
 }
 
 navbar li {
-    float: left;
+    
 }
 
-navbar li.last {
-    float: right;
-}
 
 navbar a {
-    color: #ABCDEF;
+    
+    color: greenyellow;
     display: block;
-    padding: 8px;
-    margin: 2px;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
 }
 
@@ -90,4 +91,9 @@ navbar a {
 
 #columns li {
     list-style: none;
+}
+
+h2{
+    color:greenyellow;
+    
 }
